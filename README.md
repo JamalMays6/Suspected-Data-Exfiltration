@@ -167,8 +167,8 @@ This aligns with an early-stage insider threat, where staging occurs first and d
 | **Defense Evasion** | `T1218.001` | Signed Binary Proxy Execution — PowerShell                        | Leveraged trusted `powershell.exe` to evade basic application controls.                                     |
 | **Collection**      | `T1119`     | Automated Collection                                             | Script iterated through `C:\ProgramData\*` to identify files for archiving.                                 |
 | **Exfiltration**    | `T1560.001` | Archive Collected Data — Archive via Utility (7-Zip)             | 7-Zip compressed files into `employee-data-*.zip`.                                                          |
-| **Persistence** 🔄   | `T1053.005` | Scheduled Task/Job — Scheduled Task                              | Interval pattern suggests a possible scheduled task (needs confirmation).                                   |
-| **Discovery** 🔍    | `T1083`     | File and Directory Discovery                                     | Script likely enumerated directories to build the archive list (implied by breadth of files captured).      |
+| **Persistence**    | `T1053.005` | Scheduled Task/Job — Scheduled Task                              | Interval pattern suggests a possible scheduled task (needs confirmation).                                   |
+| **Discovery**     | `T1083`     | File and Directory Discovery                                     | Script likely enumerated directories to build the archive list (implied by breadth of files captured).      |
 
 > **Next Action Items:** Run a Defender *Live Response* session to search for scheduled tasks, confirm persistence, and image the system for full forensic analysis if management approves.
 
