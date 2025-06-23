@@ -1,7 +1,7 @@
 # 🕵️ Suspected Data Exfiltration
 ## Suspicious Insider Activity: John Doe Data Exfiltration Risk
 
-In this investigation, we respond to a potential insider threat involving a disgruntled employee, John Doe, who was recently placed on a performance improvement plan (PIP). The security team suspects that John, who has administrative access to his corporate Windows device (`r3dant-ls-lab6`), may be attempting to exfiltrate proprietary information before resigning.
+In this investigation, I respond to a potential insider threat involving a disgruntled employee, John Doe, who was recently placed on a performance improvement plan (PIP). The security team suspects that John, who has administrative access to his corporate Windows device (`r3dant-ls-lab6`), may be attempting to exfiltrate proprietary information before resigning.
 
 _**Inception State:**_ John is actively using his device. No official indicators of compromise yet, but behavior concerns have triggered a proactive hunt. The system is live, and no data loss has been confirmed.
 
@@ -74,7 +74,7 @@ While no overtly suspicious filenames (e.g., “Confidential”, “Passwords”
 
 ## 🌐 Phase 2: Correlate Process Activity Around the ZIP Event  
 
-After spotting repeated ZIP creation in **Phase 1**, we pivoted to the surrounding **process activity** to learn *how* the archives were generated.
+After spotting repeated ZIP creation in **Phase 1**, I jumped over to the surrounding **process activity** to learn *how* the archives were generated.
 
 ### ✅ Microsoft Defender KQL Query (± 2 minutes window)
 
