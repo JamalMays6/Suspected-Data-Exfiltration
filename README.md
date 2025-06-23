@@ -200,6 +200,18 @@ This aligns with an early-stage insider threat, where staging occurs first and d
 | Mitigation  | Outlined preventive and detective countermeasures  | ✅ Complete     | Sentinel rules, GPO hardening recommendations |
 
 
+---
+
+## 🧑‍💼 Author
+
+Created by Jamal Mays  
+💻 Cybersecurity Engineer | ✨ Portfolio Builder
+
+---
+
+## ⭐ Like This Project?
+
+Give it a ⭐ on GitHub and connect with me on [LinkedIn](https://linkedin.com/in/jamal-mays/)!
 
 
 
